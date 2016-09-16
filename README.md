@@ -5,3 +5,5 @@ Build
 
 Tests
 `npm test`
+
+###License: MIT
