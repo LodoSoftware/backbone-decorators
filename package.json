@@ -2,7 +2,12 @@
   "name": "backbone-decorators",
   "version": "0.0.1",
   "description": "Collection of decorators for BackboneJS",
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lodosoftware/backbone-decorators/blob/master/LICENSE"
+    }
+  ],
   "main": "dist/backbone-decorators.min.js",
   "peerDependencies": {
     "backbone": ">= 1.2 < 2"
