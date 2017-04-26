@@ -6,7 +6,7 @@
  * @export
  * @param value - url to assign to a view
  */
-export default function url(value) {
+export function url(value) {
   return function decorator(target) {
     target.prototype.url = value;
   };

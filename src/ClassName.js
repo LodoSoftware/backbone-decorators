@@ -2,7 +2,7 @@
 // e.g. @className('entity')
 // value: string - takes a class name to assign to a view
 // TODO: add tests and error conditions
-export default function className(value) {
+export function className(value) {
   return function decorator(target) {
     target.prototype.className = value;
   };

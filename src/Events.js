@@ -4,7 +4,7 @@ import { isFunction } from 'underscore';
 // e.g. @on('click .btn')
 // value: string ('event selector') - event selector string to trigger method on
 // TODO: add tests
-export default function on(eventName) {
+export function on(eventName) {
   return function decorator(target, name, descriptor) {
     if (!target.events) {
       target.events = {};

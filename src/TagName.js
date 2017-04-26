@@ -2,7 +2,7 @@
 // e.g. @tagName('li')
 // value: string - takes an element name to assign to a view
 // TODO: add tests and error conditions
-export default function tagName(value) {
+export function tagName(value) {
   return function decorator(target) {
     target.prototype.tagName = value;
   };
